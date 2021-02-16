@@ -1,6 +1,6 @@
 import pyowm
 dic = {} 
-owm = pyowm.OWM('4dbc443654c2d6fde783bb89a4ed0d1d')  # You MUST provide a valid API key
+owm = pyowm.OWM('Your API Key')  # You MUST provide a valid API key
  
 # Search for current weather in London (Great Britain)
 observation = owm.weather_manager()
